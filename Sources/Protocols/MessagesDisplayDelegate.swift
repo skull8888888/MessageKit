@@ -82,7 +82,7 @@ public protocol MessagesDisplayDelegate: AnyObject {
     ///
     /// - Note:
     ///   The default image configured by this method is `?`.
-    func configureAvatarView(_ avatarView: AvatarView, for message: MessageType, at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView)
+    func configureAvatarView(avatarView: AvatarView, for message: MessageType, at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView)
 
     /// Used to configure the `AccessoryView` in a `MessageContentCell` class.
     ///
