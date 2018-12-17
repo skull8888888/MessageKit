@@ -26,7 +26,7 @@ import Foundation
 
 /// A standard protocol representing a message.
 /// Use this protocol to create your own message object to be used by MessageKit.
-public protocol MessageType {
+public protocol MessageType: NSObject {
 
     /// The sender of the message.
     var sender: Sender { get }
